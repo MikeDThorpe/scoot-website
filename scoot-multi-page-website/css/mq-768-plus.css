@@ -1,0 +1,39 @@
+/* header */
+header {
+    height: 95px;
+    justify-content: space-between
+}
+header nav {
+    width: 230px;
+    display: block;
+}
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+
+}
+header a {
+    color: rgb(147, 156, 170);
+}
+header button {
+    display: block;
+}
+.logo {
+    width: 105px;
+    height: 35px;
+}
+.hamburger {
+    display: none;
+}
+.header-left {
+    margin: 0px;
+    display: flex;
+    align-items: center;
+}
+.logo {
+    margin-right: 60px;
+}
+/* mobile navigation */
+.mobile-nav-container {
+    display: none;
+}
