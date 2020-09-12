@@ -16,18 +16,6 @@ button:hover {
 h1, h2, h3, h4 {
     font-family: 'Space Mono', monospace;
 }
-h1 {
-    font-size: 56px;
-}
-h2 {
-    font-size: 48px;
-}
-h3 {
-   font-size: 40px;
-}
-h4 {
-    font-size: 24px;
-}
 p, a, li {
     font-family: 'Lexend Deca', sans-serif;
     line-height: 1.8;
