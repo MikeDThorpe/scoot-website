@@ -93,3 +93,12 @@ header button {
 .mobile-nav-bg-active {
     display: block;
 }
+/* index page */
+.index-banner {
+    width: 100%;
+    height: 650px;
+    background-image: url('/assets/images/home-hero-mobile.jpg');
+    background-repeat: no repeat;
+    
+    border: 1px solid red;
+}
