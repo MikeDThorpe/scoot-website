@@ -36,15 +36,26 @@ header button {
 }
 /* mobile navigation */
 .mobile-nav {
+    display: none;
     height: calc(100vh - 65px);
     width: 255px;
     padding: 70px 30px 30px 30px;
     position: absolute;
     top: 65px;
     left: 0;
-    display: none;
     background-color: rgba(73,85,103);
+    animation-name: mobile-nav;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
 }
+@keyframes mobile-nav {
+    from {
+        left: -255px;
+    }
+    to {
+        left: 0px;
+    }
+}   
 .mobile-nav-bg {
     display: none;
     width: 100%;
@@ -53,6 +64,17 @@ header button {
     top: 65px;
     left: 0;
     background-color: rgba(0,0,0,0.8);
+    animation-name: nav-background;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+}
+@keyframes nav-background {
+    from {
+        opacity: 0;
+    }
+    top {
+        opacity: 0.8;
+    }
 }
 .mobile-nav a {
     color: #fff;
