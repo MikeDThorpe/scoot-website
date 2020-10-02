@@ -8,7 +8,7 @@ button {
     border: none;
 }
 button:hover {
-    background-color: #fff;
+    background-color: transparent;
     border: 2px solid #FCB72B;
     color: #FCB72B;
 }
