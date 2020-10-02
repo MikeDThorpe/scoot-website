@@ -14,4 +14,7 @@ design-system.jpg
 .DS_Store
 
 # Doesn't upload design file
-/designs 
+/designs
+
+#ignore readme file
+.md
