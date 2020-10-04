@@ -43,7 +43,7 @@ header button {
 }
 /* index page */
 .index-banner {
-    height: 770px;
+    height: 600px;
     background-image: url('/assets/images/home-hero-tablet.jpg');
 }
 .index-banner-content {
@@ -61,6 +61,9 @@ header button {
     right: -35px;
     bottom: 50px;
 }
+.index-icons {
+    padding: 0px 97px;
+}
 .index-icons-block {
     flex-direction: row;
     justify-content: flex-start;
@@ -70,7 +73,7 @@ header button {
     text-align: left;
 }
 .index-icons-block svg {
-    margin-right: 75px;
+    margin-right: 45px;
 }
 #index-icons-line {
     display: block;
@@ -84,4 +87,10 @@ header button {
 }
 .index-icons h3 {
     margin: 0px 0px 30px 0px;
+}
+.index-images {
+    padding: 0 97px;
+}
+.index-images img {
+    width: 445px;
 }

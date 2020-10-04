@@ -5,6 +5,10 @@ h1 {
 h3 {
     font-size: 22px;
 }
+h2 {
+    font-size: 30px;
+    color: #495567;
+}
 /* header styles */
 header {
     width: 100%;
@@ -165,4 +169,37 @@ header button {
 }
 #index-icons-line {
     display: none;
+}
+.index-images {
+    width: 100%;
+    margin-bottom: 120px;
+    padding: 30px;
+    overflow: hidden;
+}
+.index-images img {
+    max-width: 311px;
+    margin-bottom: 45px;
+    border-radius: 50%;
+}
+.index-image-block {
+    width: 100%;
+    margin-bottom: 55px;
+    text-align: center;
+}
+.index-image-block p {  
+    margin: 45px 0px; 
+    color: #939CAA;
+}
+.index-image-block div {
+    position: relative;
+}
+.svg-left-arrow {
+    position: absolute;
+    top: 175px;
+    left: 5px;
+}
+.svg-right-arrow {
+    position: absolute;
+    top: 30px;
+    left: -215px;
 }
