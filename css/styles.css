@@ -12,6 +12,10 @@ button:hover {
     border: 2px solid #FCB72B;
     color: #FCB72B;
 }
+/* spacing */
+.container {
+    padding: 0px 30px;
+}
 /* font styling*/
 h1, h2, h3, h4 {
     font-family: 'Space Mono', monospace;
