@@ -50,6 +50,9 @@ header button {
     background-size: contain;
     background-repeat: no-repeat;
 }
+.hdr-fixed {
+    position: fixed;
+}
 /* mobile navigation */
 .mobile-nav {
     display: none;
@@ -268,7 +271,9 @@ header button {
 }
 .values-section {
     width: 100%;
-
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #eee;
     text-align: center;
 }
 .values-section h3 {
@@ -318,26 +323,52 @@ header button {
 /* faq-section - about page */
 .faq-section {
     width: 100%;
-    margin-top: 150px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.faq-section h3 {
+    margin-bottom: 40px;
+    text-align: center;
+}
+.faq-section p {
+    font-weight: lighter;
+    color: #495567;
+}
+.faq-container {
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    padding: 150px 30px 50px 30px;
+    background-color: #fff;
+    border-radius: 15px;
+}
+.accordion-container {
+    width: 100%;
+}
+.accordion-row {
+    margin-top: 20px;
+    border-bottom: 1px solid rgb(231, 231, 233);
+}
+.faq-title {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: hsl(240, 6%, 50%);
+}
+.faq-answer {
+    display: none;
+    padding-bottom: 20px;
+}
+.active {
+    font-weight: 700;
+    color: hsl(237, 12%, 33%)
+}
+.arrow-active {
+    transform: scaleY(-1);
+}
 /* download section */
 .download-section {
     width: 100%;
@@ -382,6 +413,9 @@ footer {
 }
 footer a {
     color: #939CAA;
+}
+footer a:hover {
+    color: #FCB72B;
 }
 footer ul {
     display: flex;
