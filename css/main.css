@@ -323,7 +323,7 @@ header button {
 /* faq-section - about page */
 .faq-section {
     width: 100%;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-bottom: 100px;
 }
 .faq-section h3 {
@@ -361,6 +361,27 @@ header button {
 .faq-answer {
     display: none;
     padding-bottom: 20px;
+    animation-name: faq-answer;
+    animation-duration: 0.2s;
+    animation-timing-function: ease-in-out;
+}
+@keyframes faq-answer {
+from {
+    opacity: 0;
+}
+top {
+    opacity: 1;
+}
+}
+.mobile-nav a {
+color: #fff;
+} }
+}
+.mobile-nav a {
+    color: #fff;
+}
+.mobile-nav a {
+color: #fff;
 }
 .active {
     font-weight: 700;
