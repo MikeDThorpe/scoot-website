@@ -1,11 +1,13 @@
-/* header */
+.container {
+    padding-left: 200px;
+    padding-right: 200px;
+}
 header {
     padding: 35px 200px;
 }
-/* index page */
 .index-banner {
     height: 650px;
-    padding: 0px 170px;
+    padding: 0px 200px;
     background-image: url('/assets/images/home-hero-desktop.jpg');
     justify-content: flex-start;
 }

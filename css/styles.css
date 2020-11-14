@@ -12,11 +12,10 @@ button:hover {
     border: 2px solid #FCB72B;
     color: #FCB72B;
 }
-/* spacing */
 .container {
-    padding: 0px 30px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
-/* font styling*/
 h1, h2, h3, h4, h5 {
     font-family: 'Space Mono', monospace;
 }
@@ -26,26 +25,4 @@ p, a, li {
     font-size: 15px;
     font-weight: 400;
     text-decoration: none;
-}
-/* color schemes */
-.yellow {
-    color: rgb(252, 183, 43);
-}
-.darknavy {
-    color: rgb(73, 85, 103);
-}
-.dimgrey {
-    color: rgb(147, 156, 170);
-}
-.lightgrey {
-    color: rgb(229, 236, 244);
-}
-.snow {
-    color: rgb (242, 245, 249);
-}
-.lightyellow {
-    color: rgb(255, 244, 223);
-}
-.white {
-    color: rgb(255, 255, 255);
 }
