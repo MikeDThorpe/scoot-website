@@ -241,15 +241,15 @@ header button {
     z-index: 1;
     text-align: center;
 }
-.info-block-section .info-image-block:nth-child(1) {
-    margin-bottom: 70px;
+.info-block-section .info-image-block:nth-child(2) {
+    margin-top: 70px;
 }
 .info-image-block h3 {
     margin: 45px 0px;
 }
 .info-image-block p {
     display: block;
-    margin: 0 auto;
+    margin: 0px auto 35px auto;
     max-width: 575px;
     font-size: 15px;
     line-height: 1.4;
@@ -389,6 +389,28 @@ color: #fff;
 }
 .arrow-active {
     transform: scaleY(-1);
+}
+.job-section {
+    width: 100%;
+    padding: 50px 30px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 30px;
+}
+.job-listing {
+    height: 190px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #F2F5F9;
+    border-radius: 5px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: lighter;
+    color: #495567;
 }
 /* download section */
 .download-section {

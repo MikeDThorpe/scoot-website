@@ -94,7 +94,6 @@ header button {
 .index-images img {
     width: 445px;
 }
-/* secondary pages */
 .title-banner {
     height: 200px;
     justify-content: flex-start;
@@ -114,6 +113,10 @@ header button {
 }
 .arrow-right {
     left: calc(100vw - 700px);
+}
+.job-listing {
+    flex-direction: row;
+    text-align: left;
 }
 /* download section */
 .download-section h3 {

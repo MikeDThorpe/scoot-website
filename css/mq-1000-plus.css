@@ -1,10 +1,10 @@
 /* spacing */
 .container {
-    padding: 0px 200px;
+    padding: 0px 150px;
 }
 /* header */
 header {
-    padding: 0px 200px;
+    padding: 0px 150px;
 }
 /* index page */
 .index-icons {
@@ -32,7 +32,7 @@ header {
 }
 #index-icons-line {
     height: 20px;
-    width: 75%;
+    width: 73%;
     left: 0;
     top: 160px;
 }
@@ -94,6 +94,9 @@ header {
 .values-section {
     padding-top: 50px;
     padding-bottom: 50px;
+}
+.job-section {
+    padding: 50px 175px;
 }
 /* download section */
 .download-section {
