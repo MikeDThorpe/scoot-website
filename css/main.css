@@ -412,6 +412,43 @@ color: #fff;
     font-weight: lighter;
     color: #495567;
 }
+/* locations page */
+.location-section {
+    margin-top: 75px;
+    margin-bottom: 75px;
+    text-align: center;
+}
+.map {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 50px;
+    background-image: url("/assets/images/world-map-mobile.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.location-section p {
+    max-width: 450px;
+    display: block;
+    margin: 30px auto;
+    font-size: 13px;
+}
+.map-locations {
+    height: 350px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.location-block {
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(252, 183, 43,0.15);
+    font-size: 24px;
+}
 /* download section */
 .download-section {
     width: 100%;

@@ -63,7 +63,7 @@ header {
 }
 /* secondary pages */
 .title-banner {
-    padding: 0px 170px;
+    padding: 0px 150px;
 }
 .about-background {
     background-image: url("/assets/images/about-hero-desktop.jpg");
@@ -97,6 +97,9 @@ header {
 }
 .job-section {
     padding: 50px 175px;
+}
+.map {
+    background-image: url("/assets/images/world-map-desktop.png");
 }
 /* download section */
 .download-section {
