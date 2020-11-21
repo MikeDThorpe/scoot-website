@@ -48,6 +48,9 @@ header {
 .index-image-block img {
     margin: 0px;
 }
+.index-images img {
+    width: 400px;
+}
 .reverse-block {
     order: 2;
     margin-left: 100px;
@@ -99,6 +102,7 @@ header {
     padding: 50px 175px;
 }
 .map {
+    height: 545px;
     background-image: url("/assets/images/world-map-desktop.png");
 }
 /* download section */

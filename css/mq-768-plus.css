@@ -91,9 +91,6 @@ header button {
 .index-images {
     padding: 0 97px;
 }
-.index-images img {
-    width: 445px;
-}
 .title-banner {
     height: 200px;
     justify-content: flex-start;
@@ -105,6 +102,9 @@ header button {
 }
 .about-background {
     background-image: url("/assets/images/about-hero-tablet.jpg");
+}
+.info-image {
+    width: 400px;
 }
 .arrow-left {
     position: absolute;
@@ -119,7 +119,9 @@ header button {
     text-align: left;
 }
 .map {
+    height: 350px;
     background-image: url("/assets/images/world-map-tablet.png");
+    background-size: contain;
 }
 .map-locations {
     display: none;
