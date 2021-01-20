@@ -44,7 +44,7 @@ header button {
 /* index page */
 .index-banner {
     height: 600px;
-    background-image: url('/assets/images/home-hero-tablet.jpg');
+    background-image: url('../assets/images/home-hero-tablet.jpg');
 }
 .index-banner-content {
     width: 575px;
@@ -104,7 +104,7 @@ header button {
     right: -30px;
 }
 .about-background {
-    background-image: url("/assets/images/about-hero-tablet.jpg");
+    background-image: url("../assets/images/about-hero-tablet.jpg");
 }
 .arrow-left {
     position: absolute;
@@ -119,7 +119,7 @@ header button {
     text-align: left;
 }
 .map {
-    background-image: url("/assets/images/world-map-tablet.png");
+    background-image: url("../assets/images/world-map-tablet.png");
 }
 .map-locations {
     display: none;
