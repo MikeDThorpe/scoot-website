@@ -66,7 +66,7 @@ header {
     padding: 0px 150px;
 }
 .about-background {
-    background-image: url("/assets/images/about-hero-desktop.jpg");
+    background-image: url("../assets/images/about-hero-desktop.jpg");
 }
 .info-image-block {
     display: flex;
@@ -99,7 +99,7 @@ header {
     padding: 50px 175px;
 }
 .map {
-    background-image: url("/assets/images/world-map-desktop.png");
+    background-image: url("../assets/images/world-map-desktop.png");
 }
 /* download section */
 .download-section {
