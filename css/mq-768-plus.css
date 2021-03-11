@@ -121,9 +121,6 @@ header button {
 .map {
     background-image: url("../assets/images/world-map-tablet.png");
 }
-.map-locations {
-    display: none;
-}
 /* download section */
 .download-section h3 {
     font-size: 2rem;

@@ -102,12 +102,14 @@ header {
     padding: 50px 175px;
 }
 .map {
-<<<<<<< HEAD
-    height: 545px;
+    height: 445px;
     background-image: url("/assets/images/world-map-desktop.png");
-=======
-    background-image: url("../assets/images/world-map-desktop.png");
->>>>>>> 7e219602b1424720daf9e0aa2ea46089966fbd42
+}
+.map-locations {
+    height: fit-content;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 10px;
 }
 /* download section */
 .download-section {
@@ -116,10 +118,20 @@ header {
     flex-direction: row;
     justify-content: space-between;
 }
+.download-section h3 {
+    text-align: left;
+}
 .app-icons{
     justify-content: flex-end;
     margin: 0px;
 }
+.values-container {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    column-gap: 40px;
+    row-gap: 0px;
+}
+
 /* footer */
 footer {
     padding-left: 170px;

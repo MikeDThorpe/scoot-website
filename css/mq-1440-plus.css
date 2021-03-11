@@ -22,6 +22,9 @@ header {
 .index-banner-content p, .index-banner-content button {
     margin-left: 95px;
 }
+.info-image {
+    width: 600px;
+}
 #index-banner-arrow {
     top: 50%;
     left: 52%;
@@ -37,10 +40,4 @@ header {
 }
 .index-images img {
     width: 450px;
-}
-.values-container {
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    column-gap: 40px;
-    row-gap: 0px;
 }
